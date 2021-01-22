@@ -21,20 +21,23 @@ header
 
 
 /* changed .header h1 to header h1 */
-header h1 {
+header h1 
+{
     display: inline-block;
     font-size: 48px;
 }
 
 
 /* changed .header h1 .seo to header h1 .seo*/
-header h1 .seo {
+header h1 .seo 
+{
     color: #d9dcd6;
 }
 
 
 /* changed .header div to header div*/
-header div {
+header nav
+{
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,13 +46,15 @@ header div {
 }
 
 /* changed .header div ul to header div ul */
-header div ul {
+header nav ul 
+{
     list-style-type: none;
 }
 
 /* changed .header div ul li to header div ul li*/
 
-header div ul li {
+header nav ul li 
+{
     display: inline-block;
     margin-left: 25px;
 }
