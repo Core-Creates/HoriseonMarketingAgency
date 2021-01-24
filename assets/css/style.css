@@ -45,7 +45,7 @@ header nav
     font-size: 20px;
 }
 
-/* changed .header div ul to header div ul */
+/* changed .header div ul to header div ul. Also changed */
 header nav ul 
 {
     list-style-type: none;
@@ -67,12 +67,12 @@ a {
 p {
     font-size: 16px;
 }
-
-.hero {
+/*  */
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("../images/digital-marketing-meeting.jpg" ) ;
     background-size: cover;
     background-position: center;
 }
