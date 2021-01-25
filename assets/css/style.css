@@ -1,3 +1,4 @@
+/* -----------Beginning of general body formatting------------- */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,36 +9,39 @@ body
 {
     background-color: #d9dcd6;
 }
+/* ----------------------------------End of genral body formatting---------------------------------------------------------------- */
 
 
-/* changed .header to header */
+
+
+
+
+/* ------------------Beginning of Header formatting---------------------------- */
 header 
 {
+    /* changed .header to header */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-
-/* changed .header h1 to header h1 */
 header h1 
 {
+    /* changed .header h1 to header h1 */
     display: inline-block;
     font-size: 48px;
 }
 
-
-/* changed .header h1 .seo to header h1 .seo*/
 header h1 .seo 
 {
+    /* changed .header h1 .seo to header h1 .seo*/
     color: #d9dcd6;
 }
 
-
-/* changed .header div to header div*/
 header nav
 {
+    /* changed .header div to header div*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -45,19 +49,24 @@ header nav
     font-size: 20px;
 }
 
-/* changed .header div ul to header div ul. Also changed */
 header nav ul 
 {
+    /* changed .header div ul to header div ul. Also changed */
     list-style-type: none;
 }
 
-/* changed .header div ul li to header div ul li*/
-
 header nav ul li 
 {
+    /* changed .header div ul li to header div ul li*/
     display: inline-block;
     margin-left: 25px;
 }
+/* ---------------------------------------- End of formatting for Header section ----------------------------------------------------- */
+
+
+
+
+/* --------Beginning of general tag formatting-------------- */
 
 a {
     color: #ffffff;
@@ -67,9 +76,14 @@ a {
 p {
     font-size: 16px;
 }
+/* --------------------------------Ending of general tag formatting------------------------------------------------------------------ */
 
-/* Has the background image */
+
+
+
+/* -------------------------Beginning of Background formatting------------------------------- */
 figure {
+    /* Has the background image */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -77,7 +91,13 @@ figure {
     background-size: cover;
     background-position: center;
 }
+/* ----------------------------------------Ending for Figure that holds the background image------------------------------------- */
 
+
+
+
+
+/* -----------------------Beginning of Layout floating------------------------------ */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -87,13 +107,26 @@ figure {
     float: right;
     margin-left: 25px;
 }
+/* ---------------------------------------------Ending of Layout floating ---------------------------------------------------------*/
 
+
+
+
+
+/* ----------------Beginning Main section content formatting----------------------------- */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* -------------------------------------Ending Main Section content formatting---------------------------------------------------- */
 
+
+
+
+
+/* ----Beginning of Aside Sections---- */
+/* -----------Begining of Benefits Sections----------- */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,56 +138,32 @@ figure {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-sections {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit-sections h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit-sections img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* ------------------------------------------------End of Benefits sections in aside bar -------------*/
 
 
-/* Formats the sections in main */
+/* ------------------------------------------------------Ending of Aside section----------------------------------------------------- */
+
+
+
+
+/* ---------Begining of formatting sections in main----------- */
 .main-sections {
     margin-bottom: 20px;
     padding: 50px;
@@ -172,10 +181,13 @@ figure {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* -----------------------------------------Ending of formatting sections in main---------------------------------------------------- */
 
 
 
-/* Formats footer at the bottom */
+
+
+/* ---------------Formats footer at the bottom---------------- */
 footer {
     /* changed from .footer to footer */
     padding: 30px;
@@ -188,3 +200,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* --------------------------------------------------Formats Footer at the bottom---------------------------------------------------- */
