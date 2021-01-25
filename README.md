@@ -7,4 +7,4 @@ I did this by replacing div tags with semantic tags without changin the websites
 that wasn't linking correctly. Lastly I condensed the code.
 
 
-![Alt text](Screenshot_2021-01-24 website.jpg?raw=true)
+![Alt text](https://github.com/Core-Creates/HoriseonMarketingAgency/blob/main/Screenshot_2021-01-24%20website.jpg)
